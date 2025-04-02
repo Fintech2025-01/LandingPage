@@ -1,0 +1,15 @@
+.Btn-hero {
+    padding: 10px 20px;
+    background-color: var(--saccu-color2);
+    color: var(--saccu-color3);
+    border: var(--saccu-color2) 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Btn-hero:hover {
+    background-color: var(--saccu-color1);
+    color: var(--saccu-color2);
+    border: var(--saccu-color2) 1px solid;
+}

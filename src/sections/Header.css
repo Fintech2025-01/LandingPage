@@ -1,0 +1,81 @@
+.App-logo {
+    position: relative;
+    top: 50%;
+    height: 55px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+  
+.App-header {
+    background-color: var(--saccu-color2);
+    display: flex;
+    align-items: center;
+    color: var(--saccu-color3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.App-nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.App-nav-icons-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.Btn-header {
+    position: relative;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+}
+
+.Btn-header:hover {
+    height: 25px;
+    background-color: var(--saccu-color3);
+    color: var(--saccu-color2);
+    border-radius: 8px;
+}
+
+.Div-btns {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5px;
+}
+
+.Div-header-inscribite {
+    height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--inscribe-btn-color);
+    color: var(--saccu-color2);
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Btn-header-inscribite {
+    height: 50px;
+    position: relative;
+    background-color: var(--inscribe-btn-color);
+    color: var(--saccu-color2);
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
