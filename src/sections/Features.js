@@ -85,19 +85,15 @@ function Feature({plus, minus}) {
       var scroll = 37.5;
       var diffPos = (getScrollPosition() - getContainerPosition(parentDiv));
       if (!isSelected) {
-        console.log(getContainerPosition(parentDiv) + " - " + getScrollPosition() + " % " + (window.innerWidth * 0.9 /2) + " = " + diffPos);
-        console.log(getContainerPosition(parentDiv) - getScrollPosition());
         if (diffPos !== 0) {
-          console.log(scroll);
           const containers = containersRef.current;
           containers.scrollBy({left: diffPos, behavior: 'smooth'});
-          console.log(containers);
-          console.log(scroll);
         }
         parentDiv.classList.add('selected');
         button.classList.add('clicked');
       } else {
         scroll = -1 * scroll;
+        centerContainer();
       }
     }
 
@@ -173,7 +169,20 @@ function Feature({plus, minus}) {
         }, 300);
       }
     }
-  };
+  }
+  
+  const centerContainer = () => {
+    const containers = containersRef.current;
+    if (containers) {
+      const containerWidth = containers.clientWidth;
+      const scrollPosition = (containerWidth / 2);
+      containers.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth',
+      });
+    }
+  }
+  ;
 
   return (
     <div className="Features-section">
