@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.e90cefc8.css",
+    "main.js": "/LandingPage/static/js/main.d4f555c8.js",
+    "static/js/453.34bc8f3b.chunk.js": "/LandingPage/static/js/453.34bc8f3b.chunk.js",
+    "static/media/SACCU_NoBackground.png": "/LandingPage/static/media/SACCU_NoBackground.0f3991c2d3230e55fd8e.png",
+    "static/media/SACCU_Logo.jpeg": "/LandingPage/static/media/SACCU_Logo.42b315feaa7b1895256e.jpeg",
+    "index.html": "/LandingPage/index.html",
+    "main.e90cefc8.css.map": "/LandingPage/static/css/main.e90cefc8.css.map",
+    "main.d4f555c8.js.map": "/LandingPage/static/js/main.d4f555c8.js.map",
+    "453.34bc8f3b.chunk.js.map": "/LandingPage/static/js/453.34bc8f3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e90cefc8.css",
+    "static/js/main.d4f555c8.js"
+  ]
+}
