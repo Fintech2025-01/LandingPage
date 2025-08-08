@@ -1,5 +1,5 @@
 import {initializeApp} from "firebase/app";
-import {getAnalytics} from "firebase/analytics";
+// import {getAnalytics} from "firebase/analytics";
 import {getFirestore, collection, addDoc} from 'firebase/firestore';
 import {getAuth, signInAnonymously} from 'firebase/auth';
 
